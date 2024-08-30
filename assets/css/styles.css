@@ -45,7 +45,7 @@ p {
 
 .nav h1 a {
     font-family: 'Oswald', sans-serif;
-    color: yellow;
+    color: #312a26;
     text-decoration: none;
 }
 
@@ -356,6 +356,8 @@ form h3{
     text-transform:uppercase;
 }
 form h3::after{
+    /* so-do? 
+    */
     content:"";
     background-image: url(../images/reservation-cards.png);
     background-size: contain;
@@ -369,8 +371,7 @@ form h3::after{
     width: auto;
 }
 
-
-/*    footer area*/
+/*    footer area */
 
 .footer-information {
     width: 100%;
@@ -446,4 +447,8 @@ form h3::after{
 .footer-mid {
     text-align: center;
     img {width: 4%;}
+}
+
+input[type=submit]{
+    background-color: #c7a17a;
 }
